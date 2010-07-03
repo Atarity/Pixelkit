@@ -1,0 +1,60 @@
+-- v1.7 (Sep 13, 2008)
+   - TGFX Support
+   - Improved Genesis 6 Button auto-detection
+   - Mode button now usable with Genesis 6 Button controllers
+   - Sega style Multitap support (tested with MK-1654 only!)
+
+--- v1.6 (Dec 12, 2007)
+   - Changed the button IDs. Atari and SMS controllers were
+     using button 2 and 3. Some emulators require button 1 so....
+   - Added a way to force 6 Button mode for genesis controllers. Just
+     in case your 6 button controller is not detected. Hold 'start' when connecting
+	 the USB cable to use this feature.
+
+--- v1.5 (Nov 10, 2007)
+	- Added support for Genesis 3 and 6 button controllers.
+	- All DB9 controllers (Genesis 3/6, SMS, Atari style 1 or 2 button and
+	compatible) are auto-detected.
+	- The wiring is now different for Atari style controllers. Easier to wire
+	to the multiuse PCB.
+	- NES controllers are now detected in SNES mode. This works great with
+	original Nintendo controllers. If you have trouble with clones, use
+	NES-only mode.
+	- The project is now released under the GPL v2 license.
+
+--- v1.4 (Dec 3, 2006)
+	- Added support for Atari style joysticks. Two button
+	  variations (SMS) are supported.
+	- Added padding to nes report descriptor. This makes it
+	  work correcly on windows. Linux sure is tolerant...
+
+--- v1.3 (Oct 28, 2006)
+	- Fixed a bug in nes.c, snes.c and snesmouse.c which prevented the pullup
+		on the data pin (from device) from being enabled. This resulted in
+		random button toggling when no controller was connected.
+	- A separate USB PID is used when in NES mode.
+	- PD1 is now left as input (no pullup) since it is shorted with PD0 on the
+	  PCB rev.C. (And I didnt want to scrap a batch of 50 pcb nor cut a track
+	  and solder a wire 50 times...)
+
+--- v1.2 (Oct 6, 2006)
+Added serial number
+Added support for Snes mouse (auto detected in snes mode)
+	- Default speed: Low
+	- 3 Speeds selectable by holding some buttons at
+	  startup (USB connect or mouse connect)
+	  Left+right buttons: Low speed
+	  Left buton: Medium speed
+	  Right button: High speed
+	  No button: Default speed when USB connect,
+	  			continue using same speed for mouse (re)-connect
+
+--- v1.1
+Reworked report descriptor for better behaviour 
+in Windows and Mac OS X
+
+--- v1.0 (Jul 5, 2006)
+Initial release:
+Snes gamepad support
+Nes gamepad support
+
