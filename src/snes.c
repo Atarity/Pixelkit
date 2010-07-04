@@ -26,7 +26,7 @@
 #include "leds.h"
 #include "snes.h"
 
-#define REPORT_SIZE		6
+#define REPORT_SIZE		4
 #define GAMEPAD_BYTES	2
 
 /******** IO port definitions **************/
