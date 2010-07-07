@@ -75,7 +75,7 @@ ATmega8 работает не сама по себе, а под управлен
 <div><a href="http://picasaweb.google.ru/lh/photo/xghaGBRgHwPFqdYCZSslUA?feat=embedwebsite"><img src="http://lh4.ggpht.com/_pcbSxfY74TA/TDRWnnMVdKI/AAAAAAAAAlU/tR03svWsnLI/s400/06-JPs_map.jpg" /></a></div>
 
 Руководствуясь вышеописанными рекомендациями припаивайте компоненты на плату, не забывая отрезать все лишние части с обратной стороны под самый корень. Всё это делается для уменьшения высоты платы. Так как компонентов на плате кот наплакал можете руководствоваться фотографиями в качестве туториала для пайки.
-<div><a href="http://picasaweb.google.ru/lh/photo/ujL9ZVqSEJ403K0LwjJxfA?feat=embedwebsite"><img src="http://lh3.ggpht.com/_pcbSxfY74TA/TDRWn_qLAJI/AAAAAAAAAlY/SIANIAnGvfI/s400/07-PCB.jpg" /></a><a href="http://picasaweb.google.ru/atarity/Pixelkit#5491109339299612770?feat=embedwebsite"><img src="http://lh6.ggpht.com/_pcbSxfY74TA/TDSRVvT3hMI/AAAAAAAAAmg/FPTrYQJ2X0E/s400/PixelKit_v09_3d_top_long.jpg" /></a></div>
+<div><a href="http://picasaweb.google.ru/lh/photo/ujL9ZVqSEJ403K0LwjJxfA?feat=embedwebsite"><img src="http://lh3.ggpht.com/_pcbSxfY74TA/TDRWn_qLAJI/AAAAAAAAAlY/SIANIAnGvfI/s400/07-PCB.jpg" /></a><a href="http://picasaweb.google.ru/atarity/Pixelkit#5491109339299612770"><img src="http://lh6.ggpht.com/_pcbSxfY74TA/TDSRVvT3hMI/AAAAAAAAAmg/FPTrYQJ2X0E/s400/PixelKit_v09_3d_top_long.jpg" /></a></div>
 
 После монтажа компонентов отмойте плату от флюса каким-нибудь подходящим раствором. Я использую для этого кисточку и спирт. После того, как плата высохнет тщательно проверьте всё, что сделали на предмет спаек, перетравок, замкнутых в ненужных местах контактных площадок и пр.
 
