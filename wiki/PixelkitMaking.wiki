@@ -1,6 +1,6 @@
 #summary Инструкция по самостоятельному изготовлению Пикселькита в домашних условиях
 #labels Featured,Phase-Implementation
-=Самостоятельное производство Пикселькита=
+=Самостоятельное изготовление Пикселькита=
 На этой странице я попытаюсь объяснить вам, как в домашних условиях можно собрать Пикселькит и модифицировать с его помощью ваш любимый старый геймпад. Не смотря на то, что мы предоставляем разведённую плану всем желающим, я не стану описывать принципы [http://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B7%D0%B5%D1%80%D0%BD%D0%BE-%D1%83%D1%82%D1%8E%D0%B6%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F лазерно-утюжной технологии] (ЛУТ) со всеми шагами производства. Вы можете найти огромную массу таких туториалов в Рунете.
 
 Итак, для того чтобы самостоятельно собрать Пикселькит и провести с его помощью модификацию вам потребуются:
@@ -75,7 +75,7 @@ ATmega8 работает не сама по себе, а под управлен
 <div><a href="http://picasaweb.google.ru/lh/photo/xghaGBRgHwPFqdYCZSslUA?feat=embedwebsite"><img src="http://lh4.ggpht.com/_pcbSxfY74TA/TDRWnnMVdKI/AAAAAAAAAlU/tR03svWsnLI/s400/06-JPs_map.jpg" /></a></div>
 
 Руководствуясь вышеописанными рекомендациями припаивайте компоненты на плату, не забывая отрезать все лишние части с обратной стороны под самый корень. Всё это делается для уменьшения высоты платы. Так как компонентов на плате кот наплакал можете руководствоваться фотографиями в качестве туториала для пайки.
-<div><a href="http://picasaweb.google.ru/lh/photo/ujL9ZVqSEJ403K0LwjJxfA?feat=embedwebsite"><img src="http://lh3.ggpht.com/_pcbSxfY74TA/TDRWn_qLAJI/AAAAAAAAAlY/SIANIAnGvfI/s400/07-PCB.jpg" /></a></div>
+<div><a href="http://picasaweb.google.ru/lh/photo/ujL9ZVqSEJ403K0LwjJxfA?feat=embedwebsite"><img src="http://lh3.ggpht.com/_pcbSxfY74TA/TDRWn_qLAJI/AAAAAAAAAlY/SIANIAnGvfI/s400/07-PCB.jpg" /></a><a href="http://picasaweb.google.ru/atarity/Pixelkit#5491109339299612770?feat=embedwebsite"><img src="http://lh6.ggpht.com/_pcbSxfY74TA/TDSRVvT3hMI/AAAAAAAAAmg/FPTrYQJ2X0E/s400/PixelKit_v09_3d_top_long.jpg" /></a></div>
 
 После монтажа компонентов отмойте плату от флюса каким-нибудь подходящим раствором. Я использую для этого кисточку и спирт. После того, как плата высохнет тщательно проверьте всё, что сделали на предмет спаек, перетравок, замкнутых в ненужных местах контактных площадок и пр.
 
