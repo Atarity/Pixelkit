@@ -1,5 +1,6 @@
 /* Nes/Snes/Genesis/SMS/Atari to USB
  * Copyright (C) 2006-2007 Raphaël Assénat
+ * modified by Timur Sattarov (tim.helloworld@gmail.com)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
