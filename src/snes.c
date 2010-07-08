@@ -1,5 +1,6 @@
 /* Nes/Snes/Genesis/SMS/Atari to USB
  * Copyright (C) 2006-2007 Raphaël Assénat
+ * modified by Timur Sattarov (tim.helloworld@gmail.com)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -204,27 +205,24 @@ static char snesBuildReport(unsigned char *reportBuffer, char id)
 
 		if (!nes_mode)
 		{			
-/*
-	Y
-	B
-	A
-	X
-	L
-	R
-	-
-	-
-	St
-	Sel
-			reportBuffer[2] =	(lrcb1&0x80)>>7;
-			reportBuffer[2] |=	(lrcb1&0x40)>>5;
-			reportBuffer[2] |=	(lrcb1&0x20)>>3;
-			reportBuffer[2] |=	(lrcb1&0x10)>>1;
+			/*
+			 * we have to change order here for PS3 compatibility (can also be implemented through
+			 * modification of HID descriptor, not sure which method is correct).
+			 * 
+			 * The following order is expected by PS3:
+			 * bit	button
+			 * 0	Y
+			 * 1	B
+			 * 2	A
+			 * 3	X
+			 * 4	L
+			 * 5	R
+			 * 6	-
+			 * 7	-
+			 * 8	Start
+			 * 9	Select
+			 */
 
-			reportBuffer[2] |=	(lrcb2&0x08)<<4;
-			reportBuffer[2] |=	(lrcb2&0x04)<<4;
-			reportBuffer[2] |=	(lrcb2&0x02)<<4;
-			reportBuffer[2] |=	(lrcb2&0x01)<<4;
-*/
 			reportBuffer[2] |=	(lrcb1&0x40)>>6;
 			reportBuffer[2] |=	(lrcb1&0x80)>>6;
 			reportBuffer[2] |=	(lrcb2&0x01)<<2;
