@@ -56,7 +56,7 @@
 {{{XBMC\Fusion36\Roms\SMD\Earthworm Jim.smd}}}
 
 Сборка содержит несколько эмуляторов. Вот их список:
-  * *Fusion36* (Sega Mega Drive2 / Genesis / Master System) открывает smd, srm и пр.
+  * *Fusion36* (Sega Mega Drive2 / Genesis / Master System) открывает smd, sms, srm и пр.
   * *Nestopia* (NES, она же Famicom, а так же Dendy) открывает nes, unf, fds и пр.
   * *Project 64* (Nintendo 64) открывает z64 и пр.
   * *Snes9x* (SNES она же Super Famicom) открывает smc, sfc, fig и пр.
