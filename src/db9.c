@@ -291,11 +291,11 @@ static char db9BuildReport(unsigned char *reportBuffer, char id)
 	return REPORT_SIZE;
 }
 
-#include "snes_descriptor.c"
+#include "sega_descriptor.c"
 
 Gamepad db9Gamepad = {
 	.num_reports			=	1,
-	.reportDescriptorSize	=	sizeof(snes_usbHidReportDescriptor),
+	.reportDescriptorSize	=	sizeof(sega_usbHidReportDescriptor),
 	.init					=	db9Init,
 	.update					=	db9Update,
 	.changed				=	db9Changed,
@@ -304,7 +304,7 @@ Gamepad db9Gamepad = {
 
 Gamepad *db9GetGamepad(void)
 {
-	db9Gamepad.reportDescriptor = (void*)snes_usbHidReportDescriptor;
+	db9Gamepad.reportDescriptor = (void*)sega_usbHidReportDescriptor;
 
 	return &db9Gamepad;
 }
