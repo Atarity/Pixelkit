@@ -8,8 +8,7 @@
 # This Revision: $Id: Makefile,v 1.7 2008-09-13 18:34:09 raph Exp $
 
 UISP = uisp -dprog=stk500 -dpart=atmega8 -dserial=/dev/ttyS1
-COMPILE = avr-gcc -Wall -Os -Iusbdrv -I. -mmcu=atmega8 -DF_CPU=12000000L #-DDEBUG_LEVEL=1 -L/usr/
-LDFLAGS += -T /usr/x86_64-pc-linux-gnu/avr/lib/ldscripts/avr4.x
+COMPILE = avr-gcc -Wall -Os -Iusbdrv -I. -mmcu=atmega8 -DF_CPU=12000000L #-DDEBUG_LEVEL=1
 COMMON_OBJS = usbdrv/usbdrv.o usbdrv/usbdrvasm.o usbdrv/oddebug.o main.o
 HEXFILE=main.hex
 
@@ -38,7 +37,7 @@ clean:
 
 # file targets:
 main.bin:	$(OBJS)	snes.o nes.o snesmouse.o db9.o tg16.o devdesc.o 
-	$(COMPILE) -o main.bin $(OBJS) -Wl,-Map=main.map $(LDFLAGS)
+	$(COMPILE) -o main.bin $(OBJS) -Wl,-Map=main.map
 
 $(HEXFILE):	main.bin
 	rm -f $(HEXFILE) main.eep.hex
