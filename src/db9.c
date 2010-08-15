@@ -26,8 +26,8 @@
 #include "leds.h"
 #include "db9.h"
 
-#define REPORT_SIZE		3
-#define GAMEPAD_BYTES	3
+#define REPORT_SIZE		4
+#define GAMEPAD_BYTES	4
 
 static inline unsigned char SAMPLE()
 {
@@ -245,19 +245,29 @@ static void db9Update(void)
 	last_read_controller_bytes[1]=y;
  
  	last_read_controller_bytes[2]=0;
+	last_read_controller_bytes[3]=0;
 
 	if (isGenesis(cur_id)) {
-		
-		if (data[1]&0x10) { last_read_controller_bytes[2] |= 0x01; } // A
-		if (data[0]&0x10) { last_read_controller_bytes[2] |= 0x02; } // B
-		if (data[0]&0x20) { last_read_controller_bytes[2] |= 0x04; } // C
-		if (data[1]&0x20) { last_read_controller_bytes[2] |= 0x08; } // Start
-		if (cur_id == CTL_ID_GENESIS6) {
-			if (data[2]&0x04) { last_read_controller_bytes[2] |= 0x10; } // X
-			if (data[2]&0x02) { last_read_controller_bytes[2] |= 0x20; } // Y
-			if (data[2]&0x01) { last_read_controller_bytes[2] |= 0x40; } // Z
-
-			if (data[2]&0x08) { last_read_controller_bytes[2] |= 0x80; } // Mode
+		if (cur_id != CTL_ID_GENESIS6) {
+			if (data[1]&0x10) { last_read_controller_bytes[2] |= 0x01; } // A
+			if (data[0]&0x10) { last_read_controller_bytes[2] |= 0x02; } // B
+			if (data[0]&0x20) { last_read_controller_bytes[2] |= 0x04; } // C
+			if (data[1]&0x20) { last_read_controller_bytes[2] |= 0x08; } // Start
+		} else {
+				/*
+			 * we have to change order here for PS3 compatibility (can also be implemented through
+			 * modification of HID descriptor, not sure which method is correct).
+			 */
+			 
+			if (data[2]&0x02) { last_read_controller_bytes[2] |= 0x01; } // Y
+			if (data[0]&0x10) { last_read_controller_bytes[2] |= 0x02; } // B
+			if (data[0]&0x20) { last_read_controller_bytes[2] |= 0x04; } // C
+			if (data[2]&0x01) { last_read_controller_bytes[2] |= 0x08; } // Z
+			if (data[1]&0x10) { last_read_controller_bytes[2] |= 0x10; } // A
+			if (data[2]&0x08) { last_read_controller_bytes[2] |= 0x20; } // Mode
+			
+			if (data[2]&0x04) { last_read_controller_bytes[3] |= 0x01; } // X
+			if (data[1]&0x20) { last_read_controller_bytes[3] |= 0x02; } // Start
 		}
 	}
 	else {
