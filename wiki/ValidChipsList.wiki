@@ -13,9 +13,9 @@
 ||1||[http://www.atmel.com/atmel/acrobat/2486s.pdf ATmega8-16PU]||полная||полная||C9/9F||Снят с производства. Заменён производителем на ATmega8A-PU||
 ||2||[http://www.atmel.com/dyn/resources/prod_documents/8159S.pdf ATmega8A-PU]||полная||полная||C9/9F|| -- ||
 ||3||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega88-20PU]||полная||требуется пересобирать||DE/DF||Снят с производства. Заменён производителем на ATmega88A-PU||
-||4||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega88-20PI]||полная||требуется пересобирать||DE/DF||Снят с производства.||
+||4||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega88-20PI]||полная||требуется пересобирать||DE/DF||Снят с производства||
 ||5||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PU]||полная||требуется пересобирать||н.д.||Снят с производства. Заменён производителем на ATmega168A-PU||
-||6||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PI]||полная||требуется пересобирать||н.д.||Снят с производства.||
+||6||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PI]||полная||требуется пересобирать||н.д.||Снят с производства||
 ||7||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega88A-PU]||полная||требуется пересобирать||DE/DF|| -- ||
 ||8||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168A-PU]||полная||требуется пересобирать||н.д.|| Используется в Arduino ||
 ||9||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega88PA-PU]||полная||требуется пересобирать||DE/DF|| picoPower -- оптимизированное энергопотребление ||
