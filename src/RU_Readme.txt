@@ -12,7 +12,7 @@
 
 2) Драйвер USB
    -----------
-   USB драйвер написан Christian Starkjohann. За потробной иформацией обращайтесь
+   USB драйвер написан Christian Starkjohann. За подробной иформацией обращайтесь
    по адресу http://www.obdev.at/avrusb/
 	
 3) Компиляция и fuse-биты
