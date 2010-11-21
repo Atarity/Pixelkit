@@ -158,15 +158,7 @@ rename it to "usbconfig.h". Then edit it accordingly.
  * obdev's free shared VID/PID pair. See the file USBID-License.txt for
  * details.
  */
-/*
-#define USB_CFG_DEVICE_NAME     '(', 'S', ')', 'N', 'E', 'S', '/', \
-								'A', 't', 'a', 'r', 'i', '_', 'U', 'S', 'B'
-#define USB_CFG_DEVICE_NAME_LEN 16*/
-/* Same as above for the device name. If you don't want a device name, undefine
- * the macros. See the file USBID-License.txt before you assign a name if you
- * use a shared VID/PID.
- */
-//#define USB_CFG_SERIAL_NUMBER   'N', 'o', 'n', 'e' 
+
 #define USB_CFG_SERIAL_NUMBER_LEN   4
 /* Same as above for the serial number. If you don't want a serial number,
  * undefine the macros.
@@ -257,9 +249,9 @@ rename it to "usbconfig.h". Then edit it accordingly.
  * USB strings use two bytes per character.
  */
 #define DEVICE_STRING_LENGTH	16 /* 16 characters */
-#define DEFAULT_PROD_STRING	'(','S',')','N','E','S','/','A','t','a','r','i','_','U','S','B' // (S)NES/Atari_USB
-#define MTAP_PROD_STRING	'S','e','g','a','M','u','l','t','i','t','a','p','_','U','S','B' // SegaMultitap_USB
-#define MOUSE_PROD_STRING	'S','N','E','S','M','o','u','s','e','_','t','o','_','U','S','B' // SNESMouse_to_USB
+#define DEFAULT_PROD_STRING	'(','S',')','N','E','S',' ','A','t','a','r','i',' ','U','S','B' // (S)NES/Atari_USB
+#define MTAP_PROD_STRING	'S','e','g','a','M','u','l','t','i','t','a','p',' ','U','S','B' // SegaMultitap_USB
+#define MOUSE_PROD_STRING	'S','N','E','S','M','o','u','s','e',' ','t','o',' ','U','S','B' // SNESMouse_to_USB
 
 #define USB_CFG_DESCR_PROPS_STRING_PRODUCT          (USB_PROP_LENGTH(((DEVICE_STRING_LENGTH+2)*2)) | USB_PROP_IS_RAM)
 
