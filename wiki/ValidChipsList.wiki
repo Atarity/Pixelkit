@@ -16,12 +16,12 @@
 ||4||[http://www.atmel.com/atmel/acrobat/2486s.pdf ATmega8-16AU]|| [http://code.google.com/p/pixel-kit/downloads/detail?name=Pixelkit_PCB_SMD_Sprint.zip планарная разводка] ||полная||C9/9F|| Корпус TQFP/MLF, 32 ножки||
 ||5||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega88-20PU]||полная||требуется пересобирать||DE/DF||Снят с производства. Заменён производителем на ATmega88A-PU||
 ||6||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega88-20PI]||полная||требуется пересобирать||DE/DF||Снят с производства||
-||7||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PU]||полная||требуется пересобирать||н.д.||Снят с производства. Заменён производителем на ATmega168A-PU||
-||8||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PI]||полная||требуется пересобирать||н.д.||Снят с производства||
+||7||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PU]||полная||требуется пересобирать||DE/DF||Снят с производства. Заменён производителем на ATmega168A-PU||
+||8||[http://www.atmel.cc/dyn/resources/prod_documents/2545S.pdf ATmega168-20PI]||полная||требуется пересобирать||DE/DF||Снят с производства||
 ||9||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega88A-PU]||полная||требуется пересобирать||DE/DF|| -- ||
-||10||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168A-PU]||полная||требуется пересобирать||н.д.|| Используется в Arduino ||
+||10||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168A-PU]||полная||требуется пересобирать||DE/DF|| Используется в Arduino ||
 ||11||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega88PA-PU]||полная||требуется пересобирать||DE/DF|| picoPower -- оптимизированное энергопотребление ||
-||12||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168PA-PU]||полная||требуется пересобирать||н.д.|| picoPower -- оптимизированное энергопотребление ||
+||12||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168PA-PU]||полная||требуется пересобирать||DE/DF|| picoPower -- оптимизированное энергопотребление ||
 ||13||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega328-PU]||полная||требуется пересобирать||н.д.|| -- ||
 ||14||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega328P-PU]||полная||требуется пересобирать||н.д.|| picoPower -- оптимизированное энергопотребление ||
 
