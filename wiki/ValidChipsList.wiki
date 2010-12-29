@@ -24,7 +24,7 @@
 ||12||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega168PA-PU]||полная||[http://code.google.com/p/pixel-kit/downloads/detail?name=Pixelkit_frm_M168.hex требуется пересобирать]||DE/DF|| picoPower -- оптимизированное энергопотребление ||
 ||13||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega328-PU]||полная||требуется пересобирать||н.д.|| -- ||
 ||14||[http://atmel.com/dyn/resources/prod_documents/8271S.pdf ATmega328P-PU]||полная||требуется пересобирать||н.д.|| picoPower -- оптимизированное энергопотребление ||
-||15||[http://www.atmel.com/dyn/resources/prod_documents/doc2502.pdf ATmega8535]||отсутствует||[http://code.google.com/p/pixel-kit/downloads/detail?name=Pixelkit_frm_M8535.hex требуется пересобирать]||C9/9F|| Очень громоздкий МК для наших задач ||
+||15||[http://www.atmel.com/dyn/resources/prod_documents/doc2502.pdf ATmega8535-16AU]||отсутствует||[http://code.google.com/p/pixel-kit/downloads/detail?name=Pixelkit_frm_M8535.hex требуется пересобирать]||C9/9F|| Очень громоздкий МК для наших задач ||
 
 Не все микросхемы из одной серии пригодны для текущей версии прошивки и дизайна платы. Например, ATmega8L обладает пониженным энергопотреблением и её максимальная тактовая частота снижена производителем до 8 Мгц (для Пикселькита необходимо 12 Мгц). А ATmega88V и 168V работают на частоте 10 Мгц, которой тоже недостаточно. Тем не менее, возможность заставить чипы с заниженной тактовой частотой работать в режиме 12 Мгц остаётся -- это сродни разгону процессора вашего компьютера. Будет быстро работать в ущерб надёжности и тепловому режиму.
 
