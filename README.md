@@ -1,7 +1,3 @@
-#Пикселькит
-**USB-интерфейс для старых консольных геймпадов**
-
-
 Пикселькит &mdash; это компактная плата, которая позволяет превратить геймпад от вашей старой приставки в HID-совместимое устройство, подключающееся к компьютеру через USB.
 
 <a href='https://picasaweb.google.com/lh/photo/7XOr-7OCZ5knbRcG9P40JQ?feat=embedwebsite'><img src='https://lh5.googleusercontent.com/_pcbSxfY74TA/TLRWPWcjxGI/AAAAAAAAAx8/cQhOyGYw1PQ/s400/Parallelize.jpg' /></a>
