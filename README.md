@@ -1,6 +1,6 @@
 Пикселькит &mdash; это компактная плата, которая позволяет превратить геймпад от вашей старой приставки в HID-совместимое устройство, подключающееся к компьютеру через USB.
 
-<a href='https://picasaweb.google.com/lh/photo/7XOr-7OCZ5knbRcG9P40JQ?feat=embedwebsite'><img src='https://lh5.googleusercontent.com/_pcbSxfY74TA/TLRWPWcjxGI/AAAAAAAAAx8/cQhOyGYw1PQ/s400/Parallelize.jpg' /></a>
+<a href='https://photos.google.com/share/AF1QipPCoaBpQacfRDklXbzlNjH7jiorkWg2rNF-QOlHnjsea9_q5dVcnbG2Msk8WIHNYQ/photo/AF1QipOPq4bCRLzWPy19StIswlHPvgI08Rdciw22olkc?key=Uk94TzJPb2ZvYS1Tb2FQdTdmR3hYdFJyU1FCV2xn'><img src='https://lh5.googleusercontent.com/_pcbSxfY74TA/TLRWPWcjxGI/AAAAAAAAAx8/cQhOyGYw1PQ/s400/Parallelize.jpg' /></a>
 
 Кроме самой платы, мы готовы представить вам модифицированную версию программы-медиацентра XBMC, которая может быть использована в качестве многофункционального фронтенда для запуска эмуляторов старых игровых приставок. При этом приветствуется установка XBMC на флешку, которая помещается в корпус того же геймпада в котором установлен Пикселькит.
 
